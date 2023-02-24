@@ -2,12 +2,8 @@
 <popups:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Arrastre.Paginahijo"
-<<<<<<< HEAD
              xmlns:popups="http://rotorgames.com"
                   xmlns:behaviors="clr-namespace:Arrastre.Behaviors">
-=======
-             xmlns:popups="http://rotorgames.com">
->>>>>>> cdb86db1572bd14d0aedf77871db1edad818d586
     <popups:PopupPage.Animation>
         <popups:MoveAnimation PositionIn="Bottom"
                               PositionOut="Bottom"
@@ -18,15 +14,9 @@
     <Grid x:Name="gridprincipal"
           BackgroundColor="Transparent"
           Margin="0, 200, 0, 0">
-<<<<<<< HEAD
         <Grid.Behaviors>
             <behaviors:Arrastre />
         </Grid.Behaviors>
-=======
-        <Grid.GestureRecognizers>
-            <PanGestureRecognizer PanUpdated="PanGestureRecognizer_PanUpdated"/>
-        </Grid.GestureRecognizers>
->>>>>>> cdb86db1572bd14d0aedf77871db1edad818d586
         <Grid RowDefinitions="auto, *">
             <BoxView BackgroundColor="White"
                      CornerRadius="10, 10, 0, 0"
