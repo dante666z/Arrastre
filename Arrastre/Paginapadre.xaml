@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Arrastre.Paginapadre">
+    <Grid>
+        <Image Source="https://www.24-horas.mx/wp-content/uploads/2021/10/The-Batman-tiene-fecha-de-estreno-aqui-te-decimos-cuando.png?w=1200"
+               Aspect="AspectFill"/>
+        <ImageButton Source="https://i.ibb.co/D8x1NLf/chat-de-burbujas.png"
+                     HorizontalOptions="End"
+                     VerticalOptions="End"
+                     Margin="25"
+                     HeightRequest="50"
+                     BackgroundColor="Transparent"
+                     Clicked="ImageButton_Clicked"/>
+    </Grid>
+</ContentPage>

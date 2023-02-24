@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Arrastre.Paginahijoplano">
+
+    <Grid x:Name="gridprincipal"
+          BackgroundColor="Transparent"
+          Margin="0, 200, 0, 0">
+        <Grid RowDefinitions="auto, *">
+            <BoxView BackgroundColor="White"
+                     CornerRadius="10, 10, 0, 0"
+                     Grid.RowSpan="2"/>
+            <StackLayout Orientation="Horizontal"
+                         Padding="10">
+                <Label Text="Comentarios"
+                       FontAttributes="Bold"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"
+                       x:Name="lbly"/>
+                <Button Text="X"
+                        HorizontalOptions="End"
+                        FontAttributes="Bold"
+                        TextColor="Gray"
+                        BackgroundColor="White"
+                        FontSize="Medium"
+                        WidthRequest="50"
+                        CornerRadius="10"
+                        Clicked="Button_Clicked"/>
+            </StackLayout>
+            <Image Grid.Row="1"
+                   VerticalOptions="Center"
+                   Source="https://images.emojiterra.com/twitter/512px/1f60e.png"/>
+        </Grid>
+    </Grid>
+    
+</ContentPage>
